@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chat project</title>
+		
+<link rel="stylesheet" type="text/css" href="Chat.css">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="script.js"></script>
+
+
+</head>
+	<body>
+		<div id="container">
+	<aside>		              
+    <!-- Левая часть чата. Кнопка счетчик сообщений для каждого пользователя--> 
+				<button type="button" class="button button_counter" onclick="counterButton1()">
+<div class="online"></div>
+<img src="images\user.png" alt="avatar1"> 
+                                    <div class="badge">0</div>
+                                    </button>
+
+                                    <button type="button" class="button button_counter" onclick="counterButton2()">
+				  <div class="online"></div>
+				 <img src="images\user.png" alt="avatar2"> 
+                                   <div class="badge">0</div>
+				</button>
+
+                                   <button type="button" class="button button_counter" onclick="counterButton3()">
+				<div class="online"></div>
+					<img src="images\user.png" alt="avatar3">
+                                       <div class="badge">0</div>
+				 </button>
+
+			                    <button type="button" class="button button_counter" onclick="counterButton4()">
+				<div class="online"></div>
+					<img src="images\user.png" alt="avatar4">
+                                           <div class="badge">0</div>
+				</button>
+
+			            
+				 <button type="button" class="button button_counter" onclick="counterButton5()">
+				<div class="online"></div>
+					<img src="images\user.png" alt="avatar5">
+                                          <div class="badge">0</div>
+				</button>
+			<div>
+				
+<button class="button button_message"> <div class="inner"><img src = "images\message.png"></div></button>
+                            </div>
+                          	
+	</aside>
+
+	<main>
+    <!-- Правая часть чата где содержатся сообщения -->
+              <header class="clearfix">
+			 <p1>10 Контактов онлайн </p1>
+       <button class="chat-close">x</button>
+
+		</header>
+				<div class="chat">
+          <div class='scroll-container'>
+				<div class="containerr">
+					<img src="images\user.png" alt="Avatar">
+                                          <p3>Иван Иванов</p3>
+                                               <p>Sweet! So, what do you want to today?Do...</p>
+                                              <p2>04.12.2022<br>11:00</p2>
+                                               
+				</div>
+
+				
+				<div class="containerr">
+				<img src="images\user.png" alt="Avatar">
+                                    <p3>Иван Иванов</p3>
+                                <p>Sweet! So, what do you wanna do today?</p>
+                                     <p2>04.12.2022<br>11:00</p2>
+                                               
+				</div>
+			            
+				<div class="containerr">
+				<img src="images\user.png" alt="Avatar">
+                                         <p3>Иван Иванов</p3>
+                                <p>Sweet! So, what do you wanna do today?</p>
+                                   <p2>04.12.2022<br>11:00</p2>
+                                               
+				</div>
+
+                                 <div class="containerr">
+				<img src="images\user.png" alt="Avatar">
+                                        <p3>Алексей Прямой</p3>
+                                <p>Sweet! So, what do you wanna do today?</p>
+                               <p2>04.12.2022<br>11:00</p2>
+				</div>
+				
+				<div class="containerr">
+                                <img src="images\user.png" alt="Avatar">
+                                          <p3>Тимофей Матов</p3>
+                                      <p>Sweet! So, what do you wanna do today?</p>
+                             <p2>04.12.2022<br>11:00</p2>
+				</div>
+
+		                     <div class="containerr">
+				<img src="images\user.png" alt="Avatar">
+                                      <p3>Тимофей Бодрый</p3>
+                                <p>Sweet! So, what do you wanna do today?</p>
+                                   <p2>04.12.2022<br>11:00</p2>
+				</div>
+			
+      </div>
+
+			</div>
+		
+
+     <footer>
+          <!-- Низ чата. Поле поиска -->
+        <div class="footer-chat">
+                <input type="text" class="write-message" placeholder="Поле поиска..."><button class="loup">
+                  <img src="images/search.png" alt="Profile"> </button> </input>
+     <nav>
+    <div class="dropdown">
+      <div class="dropdown-content">
+        <ul>
+          <li><a href="#"> class="user-search"</a>
+        <a><img src="images/profile.png" alt="Profile"></a></li>
+        </ul>
+      </div>
+    </div> 
+ </div>     
+    <button class="button footer_contact"
+        type="button">
+    <img src="images/newContact.png" alt="Profile">  
+      Новый контакт
+</button>
+<button class="button footer_group"
+        type="button">
+    <img src="images/people.png" alt="Profile">  
+      Создать группу
+</button>
+              </div>
+          
+             </footer>
+		</main>
+</div>
+
+
+
+	</body>
+</html>
